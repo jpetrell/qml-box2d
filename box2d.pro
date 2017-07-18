@@ -7,6 +7,8 @@ API_VER=2.0
 MOC_DIR = .moc
 OBJECTS_DIR = .obj
 
+CONFIG += staticlib
+
 contains(QT_CONFIG, reduce_exports): CONFIG += hide_symbols
 
 # Uncomment the line below to compile qml-box2d plugin with Box2D library, installed in OS
